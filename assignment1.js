@@ -30,5 +30,36 @@
 //  let newArr = [...arr1 , ...arr2] ;
 //  console.log(newArr);
 
+// 6. Use a switch statement to return the day of the week given a number (1 = Sunday …., 7 = Saturday).
+function dayOfWeek(dayNumber){
+    let name ;
+    switch (dayNumber) {
+    case 1 :
+        name = "Sunday";
+        break;
+    case 2 :
+        name = "Monday";
+        break;
+    case 3 :
+        name = "Tuseday";
+        break;
+    case 4 :
+        name = "Wensday";
+        break;
+    case 5 :
+        name = "Thursday";
+        break;
+    case 6 :
+        name = "Friday";
+        break;
+    case 7 :
+        name = "Saterday";
+        break;
+    default:
+        console.log(`The Number out of Week !!`);
+        break;
+ }
+return name;
+}
+console.log(dayOfWeek(7));
 
- 
