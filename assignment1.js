@@ -25,41 +25,50 @@
 // console.log(evenArr);
 
 // 5. Use the spread operator to merge two arrays, then return the merged array.
-// let arr1 = [1 , 2 , 3] ;
-// let arr2 = [4 , 5 , 6] ;
-//  let newArr = [...arr1 , ...arr2] ;
+// const arr1 = [1 , 2 , 3] ;
+// const arr2 = [4 , 5 , 6] ;
+//  const newArr = [...arr1 , ...arr2] ;
 //  console.log(newArr);
 
 // 6. Use a switch statement to return the day of the week given a number (1 = Sunday …., 7 = Saturday).
-function dayOfWeek(dayNumber){
-    let name ;
-    switch (dayNumber) {
-    case 1 :
-        name = "Sunday";
-        break;
-    case 2 :
-        name = "Monday";
-        break;
-    case 3 :
-        name = "Tuseday";
-        break;
-    case 4 :
-        name = "Wensday";
-        break;
-    case 5 :
-        name = "Thursday";
-        break;
-    case 6 :
-        name = "Friday";
-        break;
-    case 7 :
-        name = "Saterday";
-        break;
-    default:
-        console.log(`The Number out of Week !!`);
-        break;
- }
-return name;
-}
-console.log(dayOfWeek(7));
+// function dayOfWeek(dayNumber){
+//     let name ;
+//     switch (dayNumber) {
+//     case 1 :
+//         name = "Sunday";
+//         break;
+//     case 2 :
+//         name = "Monday";
+//         break;
+//     case 3 :
+//         name = "Tuseday";
+//         break;
+//     case 4 :
+//         name = "Wensday";
+//         break;
+//     case 5 :
+//         name = "Thursday";
+//         break;
+//     case 6 :
+//         name = "Friday";
+//         break;
+//     case 7 :
+//         name = "Saterday";
+//         break;
+//     default:
+//         console.log(`The Number out of Week !!`);
+//         break;
+//  }
+// return name;
+// }
+// console.log(dayOfWeek(7));
+
+// 7. Create an array of strings and return their lengths using map method
+// const arr = ["a" , "ab" , "abc"] ;
+// let getLength = arr.map((items)=> {
+//  return items.length ;
+// });
+// console.log(getLength);
+
+
 
