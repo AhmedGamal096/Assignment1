@@ -111,6 +111,16 @@
 // }
 // console.log(multiple(1 , 2 , 3 , 4 , 5 , 6 , 7));
 
+// 12. Write a function that returns a promise which resolves after 3 seconds with a 'Success' message.
+// function successMessage() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {resolve("Success")} , 3000);
+// });
+// }
+// successMessage().then((message)=>{
+//     console.log(message);
+// });
+
 // 13. Write a function to find the largest number in an array.
 // function getMaxNum (num1 , num2 , ...numbers){
 //     const allNum = [num1 , num2 , ...numbers] ;
@@ -133,8 +143,5 @@
 // }
 // let output = splitOfString("Ahmed Is Good BackEnd Developer")
 // console.log(output);
-
-
-
 
 
